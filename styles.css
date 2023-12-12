@@ -1,0 +1,63 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+/* Add this to your CSS file or in a style tag in your HTML */
+
+#container {
+    position: relative;
+    width: 100%; /* Adjust the width as needed */
+    height: 100vh; /* Adjust the height as needed */
+    background-image: url('https://i.ibb.co/6vrrWf0/89-A20-E7-D-0097-482-C-BB7-E-E13-D90-C886-FD.jpg'); /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .profile-picture {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border-radius: 50%; /* This creates a circular border */
+    object-fit: cover; /* Ensures the image covers the entire circular container */
+    position: absolute;
+    top: 10px; /* Adjust the top and right values to position the image in the corner */
+    right: 10px;
+  }
+  
+
+/* ... other styles ... */
+
+
+/* ... other styles ... */
+
+header, footer {
+    background-color: #1E1E1E;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Add more styles as needed */
